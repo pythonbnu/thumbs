@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+        * {
+            text-align: center;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: lightgray;
+        }
+
+        .body {
+            padding-top: 50px;
+            color: white;
+        }
+
+        .banner {
+            background-color: #1c4b91;
+            margin: auto;
+            width: 1024px;
+            height: 1024px;
+            position: relative;
+        }
+
+        .date h2 {
+            font-size: 20pt;
+        }
+
+        .title {
+            margin: 10px auto 30px auto;
+        }
+
+        .title h1 {
+            color: #ffd900;
+            font-size: 40pt;
+            margin-bottom: 0;
+        }
+
+        .title hr {
+            width: 300px;
+            height: 5px;
+            background-color: white;
+        }
+
+        .location span {
+            font-size: 30pt;
+        }
+
+        .location h2 {
+            background-color: white;
+            color: #1c4b91;
+            padding: 10px 25px 10px 25px;
+            font-size: 25pt;
+            display: block;
+            width: fit-content;
+            margin: 20px auto 20px auto;
+            border-radius: 200px;
+        }
+
+        .time {
+            color: #ffd900;
+            font-size: 30pt;
+        }
+
+        .logo {
+            background-color: #ffffff;
+            padding: 30px;
+            width: 250px;
+            position: absolute;
+            border-top-right-radius: 30px;
+            bottom: 30px
+        }
+
+        .logo img {
+            width: 100%;
+        }
+
+        .custom-image {
+            width: 100%;
+        }
+
+        .custom-image img {
+            width: 100%;
+        }
+
+        footer {
+            background-color: #fafafa;
+            color: black !important;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            font-size: 10pt !important;
+            box-sizing: border-box;
+        }
+
+        footer h3 {
+            margin: 0;
+        }
+    
+    </style>
+</head>
+<body>
+
+    <div class="banner">
+
+        <div class="body">
+            
+            <div class="date">
+                <h2>{meetup_date}</h2>
+            </div>
+
+            <div class="title">
+                <h1>{meetup_title}</h1>
+                <hr>
+            </div>
+        
+            <div class="location">
+                <span>PRESENCIAL</span>
+                <h2>{meetup_location}</h2>
+            </div>
+
+            <div class="time">
+                <h2>ÀS {meetup_time}</h2>
+            </div>
+
+            <div class="custom-image">
+                <img src="{custom_image_src}">
+            </div>
+
+            <div class="logo">
+                <img src="{logo_url}"/>
+            </div>
+
+        </div>
+
+        <footer>
+            <span>Imagem gerada automaticamente. Para saber como, acesse o repositório <strong>{project_repo}</strong> no GitHub.</span>
+        </footer>
+
+    </div>
+
+</body>
+</html>
