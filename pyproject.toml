@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "grupybnu-thumbs"
-version = "0.1.0"
+version = "1.0.0"
 description = "Gerador de banners para os encontros do GruPy Blumenau"
 authors = ["João Paulo Carvalho <email@jjpaulo2.dev.br>"]
 readme = "README.md"
