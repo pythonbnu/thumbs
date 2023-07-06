@@ -1,12 +1,20 @@
 # GruPy Blumenau Thumbs
 
-[![Testes unitários](https://github.com/pythonbnu/thumbs/actions/workflows/unit-tests.yaml/badge.svg)](https://github.com/pythonbnu/thumbs/actions/workflows/unit-tests.yaml)
+![Python 3.8](https://img.shields.io/badge/Python-3.8-blue) [![Testes unitários](https://github.com/pythonbnu/thumbs/actions/workflows/unit-tests.yaml/badge.svg)](https://github.com/pythonbnu/thumbs/actions/workflows/unit-tests.yaml)
 
 Gerador de banners para os encontros do GruPy Blumenau.
+
+![Peek 06-07-2023 18-36](https://github.com/pythonbnu/thumbs/assets/22819523/6add1562-889d-48ac-937e-4e417280fcd4)
+
+### Instalação
+
+A instalação pode ser feita via pip, apontando para este repositório git.
 
 ```shell
 $ pip install git+https://github.com/pythonbnu/thumbs.git@main
 ```
+
+Ou, se preferir, você pode baixar os distribuíveis na [página de releases](https://github.com/pythonbnu/thumbs/releases).
 
 ### Dependências
 
@@ -16,7 +24,7 @@ $ pip install git+https://github.com/pythonbnu/thumbs.git@main
 
 ### Executando
 
-```
+```shell
 $ grupy_thumbs
 
 ? Para qual meetup você deseja criar o banner? 32º encontro do Grupy Blumenau - 29/07/2023
