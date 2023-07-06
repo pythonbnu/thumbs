@@ -10,7 +10,7 @@ $ pip install git+https://github.com/pythonbnu/thumbs.git@main
 
 ### Dependências
 
-É necessário ter o **Chromium** ou **Google Chrome** instalados e visíveis no `PATH` do seu sistema para poder execurar o módulo adequeadamente.
+É necessário ter o **Chromium** ou **Google Chrome** instalado e visível no `PATH` do seu sistema para poder executar o módulo adequadamente.
 
 - [Download Chromium](https://www.chromium.org/getting-involved/download-chromium/)
 
@@ -28,3 +28,7 @@ $ grupy_thumbs
 [0706/155027.059686:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
 594551 bytes written to file /home/jjpaulo2/screenshot.png
 ```
+
+#### Banner gerado pelo módulo
+
+![screenshot](https://github.com/pythonbnu/thumbs/assets/22819523/09447293-e0e7-414c-afe6-55f7c6c10b44)
