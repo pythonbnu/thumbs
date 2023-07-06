@@ -1,5 +1,7 @@
 # GruPy Blumenau Thumbs
 
+[![Testes unitários](https://github.com/pythonbnu/thumbs/actions/workflows/unit-tests.yaml/badge.svg)](https://github.com/pythonbnu/thumbs/actions/workflows/unit-tests.yaml)
+
 Gerador de banners para os encontros do GruPy Blumenau.
 
 ```shell
