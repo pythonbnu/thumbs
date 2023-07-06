@@ -19,7 +19,7 @@ def meetup_banner():
         '{meetup_title}': selected_meetup.title.upper(),
         '{meetup_location}': selected_meetup.location.upper(),
         '{meetup_date}': selected_meetup.date.upper(),
-        '{project_repo}': settings.MEETUPS_REPO,
+        '{project_repo}': settings.PROJECT_REPO,
         '{logo_url}': settings.LOGO_URL,
         '{custom_image_src}': inputs.custom_image.ask(),
         '{meetup_time}': inputs.meetup_time.ask(),

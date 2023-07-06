@@ -2,6 +2,7 @@
 # Basic configurations
 
 MEETUPS_REPO = 'pythonbnu/meetups'
+PROJECT_REPO = 'pythonbnu/thumbs'
 BANNER_SIZE = (1024, 1024)
 TEMPLATES_DIR = 'templates'
 TEMP_DIR_NAME = '.thumbs_tmp'
