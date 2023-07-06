@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Gerador de banners para os encontros do GruPy Blumenau"
 authors = ["João Paulo Carvalho <email@jjpaulo2.dev.br>"]
 readme = "README.md"
+packages = [{include = "thumbs"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -20,6 +21,9 @@ mypy = "^1.4.1"
 [tool.poetry.group.tests.dependencies]
 pytest = "^7.4.0"
 pytest-randomly = "^3.12.0"
+
+[tool.poetry.scripts]
+grupy_thumbs = 'thumbs.cli:app'
 
 [build-system]
 requires = ["poetry-core"]
