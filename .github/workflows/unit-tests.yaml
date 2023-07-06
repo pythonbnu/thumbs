@@ -1,0 +1,37 @@
+name: Testes unitários
+
+on:
+  pull_request:
+    branches: [ "main" ]
+    types: [ "opened", "edited", "synchronize" ]
+
+permissions:
+  contents: read
+
+jobs:
+
+  unit_tests:
+
+    name: 'Executando os testes'
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Configurando o Python 3.8
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.8"
+
+    - name: Configurando o Poetry
+      uses: abatilo/actions-poetry@v2
+      with:
+        poetry-version: 1.4.1
+
+    - name: Instalando as dependências
+      run: |
+        poetry install
+
+    - name: Executando os testes
+      run: |
+        poetry run pytest
