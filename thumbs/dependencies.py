@@ -27,7 +27,7 @@ def get_repository() -> Repository:
 
 
 @lru_cache
-def get_html2image(_tmp_dir: str = get_tmp_dir()) -> Repository:
+def get_html2image(_tmp_dir: str = get_tmp_dir()) -> Html2Image:
     return Html2Image(
         size=settings.BANNER_SIZE,
         custom_flags=[
